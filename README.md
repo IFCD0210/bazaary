@@ -1,10 +1,27 @@
-MariaDB Cookbook
+Bazaary: Any Kind of Stuff Bazaar
 ================
-
-[![Build Status](https://travis-ci.org/sinfomicien/mariadb.png)](https://travis-ci.org/sinfomicien/mariadb)
 
 Description
 -----------
+
+Bazaary es un proyecto para encabezar el aprendizaje del módulo de Programación del lado Servidor en el ciclo de _Desarrollo aplicaciones con tecnologias web_
+
+Aprendizaje con Bazaary
+-----------
+Bazaary es un proyecto de una aplicación web que exige el aprendizaje de:
+* Las _visiones prinpales_ sobre el [**ciclo de vida del Software**](https://github.com/IFCD0210/bazaary/blob/master/docs/daw/theory/Temari.01.Cicle.de.vida.del.software.md)
+> **NOTA** : El ciclo de vida del software es ... `PENDING`
+* Las principales _metodologías_ para la **gestion de proyectos**, tales como `kanban`, `scrum`, `eXtreme Programming` y similares, o combinaciones de los mismos.
+> **NOTA** : Las distintas metodologias de gestión de proyectos quedan cubiertas en este recurso `PENDIENTE PONER URL GDOCS`
+
+Bazaary pretende que el alumnado experimente en _carne y huesos_ el proceso de gestaición de una aplicación construida con tecnologías web.
+En dicho proceso el alumnado gestionará como un proyecto las distintas fases del ciclo de vida clásico del software (conocido como _en cascada_) y los recorrerá a lo largo de gestión de entregas de un prototipo de aplicación, que deberá gestionar con herramientas propias del sector, como los gestores de proyectos[^1]
+
+
+
+
+- - -
+
 
 This cookbook contains all the stuffs to install and configure a mariadb server on a dpkg/apt compliant system (typically debian), or a rpm/yum compliant system (typically centos)
 
