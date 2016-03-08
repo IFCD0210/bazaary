@@ -3,8 +3,10 @@ vagrantfile:
     vm:
         provider:
             local:
-                box: puphpet/ubuntu1404-x64
-                box_url: puphpet/ubuntu1404-x64
+                #linea_modificada
+                box: vagrantClickDo
+                #linea_modificada
+                box_url: file:///C:/Users/ClickDo/VirtualBox%20VMs/package.box 
                 box_version: '0'
                 chosen_virtualizer: virtualbox
                 virtualizers:
@@ -108,7 +110,10 @@ vagrantfile:
 server:
     install: '1'
     packages:
+        - lynx
         - nano
+        - eclipse
+        - gdebi
         - git
         - php5-xdebug
         - ssh
@@ -290,7 +295,7 @@ php:
         date.timezone: UTC
     fpm_ini:
         error_log: /var/www/bazaary/log/php.log
-        log_level: warn
+        #log_level: warning
     fpm_pools:
         phpfp_gz2f80s5dzc1:
             ini:
