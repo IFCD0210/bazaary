@@ -3,8 +3,8 @@ vagrantfile:
     vm:
         provider:
             local:
-                box: puphpet/ubuntu1404-x64
-                box_url: puphpet/ubuntu1404-x64
+                box: DevOps
+                box_url: file:///C:/Users/Politolecs/VirtualBox%20VMs/package.box
                 box_version: '0'
                 chosen_virtualizer: virtualbox
                 virtualizers:
@@ -109,7 +109,11 @@ server:
     install: '1'
     packages:
         - nano
+        - eclipse
+        - gdebi
         - git
+        - apt-file
+        - lynx		
         - php5-xdebug
         - ssh
         - nagios3
@@ -275,6 +279,7 @@ php:
             - cli
             - intl
             - curl
+            #imagick no aparece
             - imagick
             - xmlrpc
             - xsl
@@ -290,7 +295,7 @@ php:
         date.timezone: UTC
     fpm_ini:
         error_log: /var/www/bazaary/log/php.log
-        log_level: warn
+        #log_level: warn
     fpm_pools:
         phpfp_gz2f80s5dzc1:
             ini:
