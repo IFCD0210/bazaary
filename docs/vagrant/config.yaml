@@ -3,8 +3,10 @@ vagrantfile:
     vm:
         provider:
             local:
-                box: puphpet/ubuntu1404-x64
-                box_url: puphpet/ubuntu1404-x64
+                #nom de la maquina
+                box: vagrant_xavi
+                # adreça del paquet
+                box_url: file:///C:/Users/ClickDo/VirtualBox%20VMs/package.box
                 box_version: '0'
                 chosen_virtualizer: virtualbox
                 virtualizers:
@@ -108,6 +110,9 @@ vagrantfile:
 server:
     install: '1'
     packages:
+        - lynx
+        - gdebi
+        - eclipse
         - nano
         - git
         - php5-xdebug
