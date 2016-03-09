@@ -1,10 +1,10 @@
 vagrantfile:
     target: local
-    vm:
+    vm:  
         provider:
             local:
-                box: puphpet/ubuntu1404-x64
-                box_url: puphpet/ubuntu1404-x64
+                box: vagrant_politolecs_jj
+                box_url: file:///C:/Users/Politolecs/VirtualBox%20VMs/package.box
                 box_version: '0'
                 chosen_virtualizer: virtualbox
                 virtualizers:
@@ -108,8 +108,12 @@ vagrantfile:
 server:
     install: '1'
     packages:
+        - retex
         - nano
         - git
+        - lynx
+        - eclipse
+        - gdebbi
         - php5-xdebug
         - ssh
         - nagios3
@@ -275,6 +279,7 @@ php:
             - cli
             - intl
             - curl
+            # imagick no se ha encontrado en php
             - imagick
             - xmlrpc
             - xsl
@@ -290,7 +295,7 @@ php:
         date.timezone: UTC
     fpm_ini:
         error_log: /var/www/bazaary/log/php.log
-        log_level: warn
+        #log_level: warning
     fpm_pools:
         phpfp_gz2f80s5dzc1:
             ini:
@@ -401,7 +406,7 @@ mysql:
             password: '1234'
     databases:
         mysqlnd_840wt0hy5dq7:
-            name: dbname
+            name: bazaary
             sql: ''
     grants:
         mysqlng_lvymmen0gsx2:
