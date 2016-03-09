@@ -3,8 +3,12 @@ vagrantfile:
     vm:
         provider:
             local:
-                box: puphpet/ubuntu1404-x64
-                box_url: puphpet/ubuntu1404-x64
+                box: vagrant_Imma #identifiquem la nostra maquina: Nom amb el que registrem la nostra maquina a Oracle VirtualBox.
+                 ##Nom de la maquina per defecte que no ens serveix: puphpet/ubuntu1404-x64
+                
+                box_url: file:///C:/Users/ClickDo/VirtualBox%20VMs/package.box #URL d'on tenim la nosytra box al PC.
+                 ##Ubicacio de la box per defecte: puphpet/ubuntu1404-x64
+                
                 box_version: '0'
                 chosen_virtualizer: virtualbox
                 virtualizers:
@@ -39,7 +43,7 @@ vagrantfile:
                     - '--hiera_config /vagrant/puphpet/puppet/hiera.yaml'
         synced_folder:
             vflsf_9f3pm5dtamaw:
-                source: 'c:/xampp/htdocs'
+                source: c:/xampp5_6/htdocs
                 target: /var/www
                 sync_type: default
                 smb:
@@ -108,6 +112,9 @@ vagrantfile:
 server:
     install: '1'
     packages:
+        - gdebi
+        - lynx
+        - eclipse
         - nano
         - git
         - php5-xdebug
@@ -275,7 +282,7 @@ php:
             - cli
             - intl
             - curl
-            - imagick
+            - #imagick  No esta a php.info
             - xmlrpc
             - xsl
             - dbg
