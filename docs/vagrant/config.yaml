@@ -3,8 +3,8 @@ vagrantfile:
     vm:
         provider:
             local:
-                box: puphpet/ubuntu1404-x64
-                box_url: puphpet/ubuntu1404-x64
+                box: Jonytapia
+                box_url: file:///C:/Users/Politolecs/.VirtualBox/VirtualBoxVM/package.box
                 box_version: '0'
                 chosen_virtualizer: virtualbox
                 virtualizers:
@@ -110,6 +110,7 @@ server:
     packages:
         - nano
         - git
+        - lynx
         - php5-xdebug
         - ssh
         - nagios3
@@ -269,7 +270,7 @@ apache:
 php:
     install: '1'
     settings:
-        version: '56'
+        version: '55'
     modules:
         php:
             - cli
@@ -401,7 +402,7 @@ mysql:
             password: '1234'
     databases:
         mysqlnd_840wt0hy5dq7:
-            name: dbname
+            name: bazaary
             sql: ''
     grants:
         mysqlng_lvymmen0gsx2:

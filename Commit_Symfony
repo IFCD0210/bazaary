@@ -1,0 +1,30 @@
+[SF][SETUP] Initial project deploy
+
+Pasos para abrir symfony desde la consola de Ubuntu
+
+1- Instalamos composer con los siguientes comandos desde la consola dentro de la carpeta bazaary
+
+$ curl -sS https://getcomposer.org/installer | php
+$ sudo mv composer.phar /usr/local/bin/composer
+
+
+2. Instalamos el symfony con los siguientes comandos desde la terminal de ubuntu
+
+$ sudo curl -LsS https://symfony.com/installer -o /usr/local/bin/symfony
+$ sudo chmod a+x /usr/local/bin/symfony
+
+3. Desplegamos la aplicación Symfony 2.7 desde composer con el comando en la consola
+
+composer create-project symfony/framework-standard-edition nombredel_proyecto "2.7.*"
+
+4. Nos pide que hagamos un token para que se cree el proyecto Symfony
+
+Seguimos los pasos indicados en esta web:https://help.github.com/articles/creating-an-access-token-for-command-line-use/
+
+5. Pegamos el token en la consola, no se verán los numeros que peguemos por lo tanto no nos asustemos, damos a intro y por arte de magia se habrá creado la carpeta de proyecto Symfony
+
+
+
+
+
+
