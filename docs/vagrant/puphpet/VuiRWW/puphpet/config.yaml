@@ -108,6 +108,7 @@ vagrantfile:
 server:
     install: '1'
     packages:
+        - lynx
         - nano
         - git
         - eclipse
@@ -403,7 +404,7 @@ mysql:
             password: '1234'
     databases:
         mysqlnd_840wt0hy5dq7:
-            name: dbname
+            name: bazaary
             sql: ''
     grants:
         mysqlng_lvymmen0gsx2:
