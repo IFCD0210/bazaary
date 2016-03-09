@@ -1,0 +1,29 @@
+
+Symfony2 Requirements Checker
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+> PHP is using the following php.ini file:
+  /etc/php5/cli/php.ini
+
+> Checking Symfony requirements:
+  .................W.......................
+
+                                               
+ [OK]                                          
+ Your system is ready to run Symfony2 projects 
+                                               
+
+Optional recommendations to improve your setup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ * xdebug.max_nesting_level should be above 100 in php.ini
+   > Set "xdebug.max_nesting_level" to e.g. "250" in php.ini* to stop
+   > Xdebug's infinite recursion protection erroneously throwing a
+   > fatal error in your project.
+
+
+Note  The command console could use a different php.ini file
+~~~~  than the one used with your web server. To be on the
+      safe side, please check the requirements from your web
+      server using the web/config.php script.
+
