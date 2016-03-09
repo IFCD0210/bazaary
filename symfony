@@ -1,0 +1,5 @@
+[SF][SETUP] Initial project deploy
+se crea una rama dentro de master para instalar programas(maalvarez)
+con control+p buscamos todos los archivos de git yml,ymal y los instalamos
+tambien podemos instalar todos y luego hacer reset de los archivos que queramos borrar.
+hacemos una git status para ver todo lo que hemos instado
