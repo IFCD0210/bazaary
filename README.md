@@ -1,226 +1,72 @@
-Bazaary: Any Kind of Stuff Bazaar
-================
+Symfony Standard Edition
+========================
 
-Description
------------
+Welcome to the Symfony Standard Edition - a fully-functional Symfony
+application that you can use as the skeleton for your new applications.
 
-Bazaary es un proyecto para encabezar el aprendizaje del módulo de Programación del lado Servidor en el ciclo de _Desarrollo aplicaciones con tecnologias web_
+For details on how to download and get started with Symfony, see the
+[Installation][1] chapter of the Symfony Documentation.
 
-Aprendizaje con Bazaary
------------
-Bazaary es un proyecto de una aplicación web que exige el aprendizaje de:
-* Las _visiones prinpales_ sobre el [**ciclo de vida del Software**](https://github.com/IFCD0210/bazaary/blob/master/docs/daw/theory/Temari.01.Cicle.de.vida.del.software.md)
-> **NOTA** : El ciclo de vida del software es ... `PENDING`
-* Las principales _metodologías_ para la **gestion de proyectos**, tales como `kanban`, `scrum`, `eXtreme Programming` y similares, o combinaciones de los mismos.
-> **NOTA** : Las distintas metodologias de gestión de proyectos quedan cubiertas en este recurso `PENDIENTE PONER URL GDOCS`
+What's inside?
+--------------
 
-Bazaary pretende que el alumnado experimente en _carne y huesos_ el proceso de gestaición de una aplicación construida con tecnologías web.
-En dicho proceso el alumnado gestionará como un proyecto las distintas fases del ciclo de vida clásico del software (conocido como _en cascada_) y los recorrerá a lo largo de gestión de entregas de un prototipo de aplicación, que deberá gestionar con herramientas propias del sector, como los gestores de proyectos[^1]
+The Symfony Standard Edition is configured with the following defaults:
 
+  * An AppBundle you can use to start coding;
 
+  * Twig as the only configured template engine;
 
+  * Doctrine ORM/DBAL;
 
-- - -
+  * Swiftmailer;
 
+  * Annotations enabled for everything.
 
-This cookbook contains all the stuffs to install and configure a mariadb server on a dpkg/apt compliant system (typically debian), or a rpm/yum compliant system (typically centos)
+It comes pre-configured with the following bundles:
 
+  * **FrameworkBundle** - The core Symfony framework bundle
 
-Requirements
-------------
+  * [**SensioFrameworkExtraBundle**][6] - Adds several enhancements, including
+    template and routing annotation capability
 
-#### repository
-- `mariadb` - This cookbook need that you have a valid apt repository installed with the mariadb official packages
+  * [**DoctrineBundle**][7] - Adds support for the Doctrine ORM
 
-#### packages
-- `percona-xtrabackup` - if you want to use the xtrabckup SST Auth for galera cluster.
-- `socat` - if you want to use the xtrabckup SST Auth for galera cluster.
-- `rsync` - if you want to use the rsync SST Auth for galera cluster.
-- `debconf-utils` - if you use debian platform family.
+  * [**TwigBundle**][8] - Adds support for the Twig templating engine
 
-#### operating system
-- `debian` - this cookbook is fully tested on debian
-- `ubuntu` - not fully tested on ubuntu, but should work
-- `centos` - not fully tested on centos, but should work
+  * [**SecurityBundle**][9] - Adds security by integrating Symfony's security
+    component
 
-Attributes
-----------
+  * [**SwiftmailerBundle**][10] - Adds support for Swiftmailer, a library for
+    sending emails
 
-#### mariadb::default
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['mariadb']['install']['version']</tt></td>
-    <td>String</td>
-    <td>Version to install (currently 10.0 et 5.5)</td>
-    <td><tt>10.0</tt></td>
-  </tr>
-  <tr>
-    <td><tt>['mariadb']['use_default_repository']</tt></td>
-    <td>Boolean</td>
-    <td>Whether to install MariaDB default repository or not. If you don't have a local repo containing packages, put it to true</td>
-    <td><tt>false</tt></td>
-  </tr>
-  <tr>
-    <td><tt>['mariadb']['server_root_password']</tt></td>
-    <td>String</td>
-    <td>local root password</td>
-    <td><tt></tt></td>
-  </tr>
-  <tr>
-    <td><tt>['mariadb']['forbid_remote_root']</tt></td>
-    <td>Boolean</td>
-    <td>Whether to activate root remote access</td>
-    <td><tt>true</tt></td>
-  </tr>
-  <tr>
-    <td><tt>['mariadb']['allow_root_pass_change']</tt></td>
-    <td>Boolean</td>
-    <td>Whether to allow the recipe to change root password after the first install</td>
-    <td><tt>false</tt></td>
-  </tr>
-  <tr>
-    <td><tt>['mariadb']['client']['development_files']</tt></td>
-    <td>Boolean</td>
-    <td>Whether to install development files in client recipe</td>
-    <td><tt>true</tt></td>
-  </tr>
-  <tr>
-    <td><tt>['mariadb']['apt_repository']['base_url']</tt></td>
-    <td>String</td>
-    <td>The http base url to use when installing from default repository</td>
-    <td><tt>'ftp.igh.cnrs.fr/pub/mariadb/repo'</tt></td>
-  </tr>
-  <tr>
-    <td><tt>['mariadb']['install']['prefer_os_package']</tt></td>
-    <td>Boolean</td>
-    <td>Indicator for preferring use packages shipped by running os</td>
-    <td><tt>false</tt></td>
-  </tr>
-</table>
+  * [**MonologBundle**][11] - Adds support for Monolog, a logging library
 
-Usage
------
+  * [**AsseticBundle**][12] - Adds support for Assetic, an asset processing
+    library
 
-To install a default server for mariadb choose the version you want (MariaDB 5.5 or 10, galera or not), then call the recipe accordingly.
+  * **WebProfilerBundle** (in dev/test env) - Adds profiling functionality and
+    the web debug toolbar
 
-List of availables recipes:
+  * **SensioDistributionBundle** (in dev/test env) - Adds functionality for
+    configuring and working with Symfony distributions
 
-- mariadb::default (just call server recipe with default options)
-- mariadb::server
-- mariadb::galera
-- mariadb::client
+  * [**SensioGeneratorBundle**][13] (in dev/test env) - Adds code generation
+    capabilities
 
-Please be ware that by default, the root password is empty! If you want have changed it use the `node['mariadb']['server_root_password']` attribute to put a correct value. And by default the remote root access is not activated. Use `node['mariadb']['forbid_remote_root']` attribute to change it.
+  * **DebugBundle** (in dev/test env) - Adds Debug and VarDumper component
+    integration
 
-Sometimes, the default apt repository used for apt does not work (see issue #6). In this case, you need to choose another mirror which worki (pick it from mariadb website), and put the http base url in the attribute `node['mariadb']['apt_repository']['base_url']`.
+All libraries and bundles included in the Symfony Standard Edition are
+released under the MIT or BSD license.
 
-#### mariadb::galera
+Enjoy!
 
-When installing the mariadb::galera on debian recipe, You have to take care of one specific attribute:
-`node['mariadb']['debian']['password']` which default to 'please-change-me'
-As wee need to have the same password for this user on the whole cluster nodes... We will change the default install one by the content of this attribute.
-
-#### mariadb::client
-
-By default this recipe install the client, and all needed packages to develop client application. If you do not want to install development files when installing client package,
-set the attribute `node['mariadb']['client']['development_files']` to false. 
-
-Providers
-----------
-
-This recipe define 2  providers:
-- `Chef::Provider::Mariadb::Configuration` shortcut resource `mariadb_configuration`
-- `Chef::Provider::Mariadb::Replication` shortcut resource `mariadb_replication`
-
-#### mariadb_configuration
-
-Mainly use for internal purpose. You can use it to create a new configuration file into configuration dir. You have to define 2 variables `section` and `option`.
-Where `section` is the configuration section, and `option` is a hash of key/value. The name of the resource is used as base for the filename.
-
-Example:
-```ruby
-mariadb_configuration 'fake' do
-  section 'mysqld'
-  option :innodb_buffer_pool_size => node['mysql']['innodb_buffer_pool_size'],
-    :innodb_flush_method => node['mysql']['innodb_flush_method']
-end
-```
-will become the file fake.cnf in the include dir (depend on your platform), which contain:
-```
-[mysqld]
-foo=bar
-```
-
-If the value start with a '#', then it's considered as a comment, and the value is printed as is (without the key)
-
-Example:
-```ruby
-mariadb_configuration 'fake' do
-  section 'mysqld'
-  option :comment1 => '# Here i am',
-    :foo => bar
-end
-```
-will become the file fake.cnf in the include dir (depend on your platform), which contain:
-```
-[mysqld]
-# Here i am
-foo=bar
-```
-
-#### mariadb_replication
-
-This LWRP is used to manage replication setup on a host. To use this LWRP, the node need to have the mysql binary installed (via the mariadb::client or mariadb::server or mariadb::galera recipe).
-It have 4 actions:
-- add - to add a new replication setup (become a slave)
-- stop - to stop the slave replication
-- start - to start the slave replication
-- remove - to remove the slave replication configuration
-
-The resource name need to be 'default' if your don't want to use a named connection (multi source replication in MariaDB 10).
-
-So by default the provider try to use the local instance of mysql, with the current user and no password. If you want to change, you have to define `host`, `port`, `user` or `password`
-
-```ruby
-mariadb_replication 'default' do
-  user 'root'
-  password 'fakepass'
-  host 'fakehost'
-  action :stop
-end
-```
-will stop the replication on the host `fakehost` using the user `root` and password `fakepass` to connect to.
-
-When you add a replication configuration, you have to define at least 4 values `master_host`, `master_user`, `master_password` and `master_use_gtid`. And if you don't want the GTID support, you have to define also `master_log_file` and `master_log_pos`
-
-Example:
-```ruby
-mariadb_replication 'usefull_conn_name' do
-  master_host 'server1'
-  master_user 'slave_user'
-  master_password 'slave_password'
-  master_use_gtid 'current_pos'
-  action :add
-end
-```
-
-Contributing
-------------
-
-1. Fork the repository on Github
-2. Create a named feature branch (like `add_component_x`)
-3. Write your change
-4. Write tests for your change (if applicable)
-5. Run the tests, ensuring they all pass
-6. Submit a Pull Request using Github
-
-License and Authors
--------------------
-Authors:
-Nicolas Blanc <sinfomicien@gmail.com>
+[1]:  https://symfony.com/doc/2.7/book/installation.html
+[6]:  https://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/index.html
+[7]:  https://symfony.com/doc/2.7/book/doctrine.html
+[8]:  https://symfony.com/doc/2.7/book/templating.html
+[9]:  https://symfony.com/doc/2.7/book/security.html
+[10]: https://symfony.com/doc/2.7/cookbook/email.html
+[11]: https://symfony.com/doc/2.7/cookbook/logging/monolog.html
+[12]: https://symfony.com/doc/2.7/cookbook/assetic/asset_management.html
+[13]: https://symfony.com/doc/2.7/bundles/SensioGeneratorBundle/index.html
