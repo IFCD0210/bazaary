@@ -1,3 +1,7 @@
+src_mvc_module:
+    resource: "@srcMVCModuleBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
