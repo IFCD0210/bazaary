@@ -2936,7 +2936,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "Categoria",
+													"text": "Categories",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -3278,7 +3278,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "Item",
+													"text": "Items",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -3760,7 +3760,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "Tag",
+													"text": "Tags",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -4102,7 +4102,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "Proveedor",
+													"text": "Suppliers",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -4472,7 +4472,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "Fichero",
+													"text": "Spreadsheets",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -4842,7 +4842,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "Ventas",
+													"text": "Sales",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -5987,7 +5987,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4EXLYqmHsvE="
 							},
-							"name": "Categoria",
+							"name": "Categories",
 							"ownedElements": [
 								{
 									"_type": "UMLDependency",
@@ -6054,7 +6054,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4EXLYqmHsvE="
 							},
-							"name": "Item",
+							"name": "Items",
 							"ownedElements": [
 								{
 									"_type": "UMLDependency",
@@ -6346,7 +6346,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4EXLYqmHsvE="
 							},
-							"name": "Tag",
+							"name": "Tags",
 							"ownedElements": [
 								{
 									"_type": "UMLDependency",
@@ -6413,7 +6413,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4EXLYqmHsvE="
 							},
-							"name": "Proveedor",
+							"name": "Suppliers",
 							"ownedElements": [
 								{
 									"_type": "UMLAssociation",
@@ -6529,7 +6529,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4EXLYqmHsvE="
 							},
-							"name": "Fichero",
+							"name": "Spreadsheets",
 							"visibility": "public",
 							"attributes": [
 								{
@@ -6542,6 +6542,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -6559,6 +6560,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -6576,6 +6578,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -6595,7 +6598,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4EXLYqmHsvE="
 							},
-							"name": "Ventas",
+							"name": "Sales",
 							"visibility": "public",
 							"attributes": [
 								{
@@ -6608,6 +6611,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -6625,6 +6629,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -6642,6 +6647,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -7419,7 +7425,7 @@
 											"containerExtending": false,
 											"left": 420,
 											"top": 216,
-											"width": 93,
+											"width": 90,
 											"height": 25,
 											"autoResize": false,
 											"stereotypeLabel": {
@@ -7704,7 +7710,7 @@
 											"containerExtending": false,
 											"left": 196,
 											"top": 200,
-											"width": 106,
+											"width": 98.8798828125,
 											"height": 38,
 											"autoResize": false,
 											"stereotypeLabel": {
