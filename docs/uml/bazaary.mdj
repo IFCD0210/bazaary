@@ -2936,7 +2936,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "Categoria",
+													"text": "Categories",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -3278,7 +3278,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "Item",
+													"text": "Items",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -3760,7 +3760,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "Tag",
+													"text": "Tags",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -4102,7 +4102,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "Proveedor",
+													"text": "Suppliers",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -4472,7 +4472,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "Ventas",
+													"text": "Sales",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -5840,7 +5840,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4EXLYqmHsvE="
 							},
-							"name": "Categoria",
+							"name": "Categories",
 							"ownedElements": [
 								{
 									"_type": "UMLDependency",
@@ -5912,7 +5912,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4EXLYqmHsvE="
 							},
-							"name": "Item",
+							"name": "Items",
 							"ownedElements": [
 								{
 									"_type": "UMLDependency",
@@ -6218,7 +6218,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4EXLYqmHsvE="
 							},
-							"name": "Tag",
+							"name": "Tags",
 							"ownedElements": [
 								{
 									"_type": "UMLDependency",
@@ -6288,7 +6288,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4EXLYqmHsvE="
 							},
-							"name": "Proveedor",
+							"name": "Suppliers",
 							"ownedElements": [
 								{
 									"_type": "UMLAssociation",
@@ -6468,7 +6468,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4EXLYqmHsvE="
 							},
-							"name": "Ventas",
+							"name": "Sales",
 							"visibility": "public",
 							"attributes": [
 								{
