@@ -5271,7 +5271,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "file",
+													"text": "Spreadsheets",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -5613,7 +5613,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "categories",
+													"text": "Categories",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -5955,7 +5955,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "item",
+													"text": "Items",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -6381,7 +6381,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "supplier",
+													"text": "Suppliers",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -7065,7 +7065,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "tags",
+													"text": "Tags",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -7939,7 +7939,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "price",
+													"text": "Prices",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -8812,7 +8812,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4FbwYP4Vyrk="
 							},
-							"name": "file",
+							"name": "Spreadsheets",
 							"ownedElements": [
 								{
 									"_type": "UMLAssociation",
@@ -8959,6 +8959,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -8976,6 +8977,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -9008,7 +9010,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4FbwYP4Vyrk="
 							},
-							"name": "categories",
+							"name": "Categories",
 							"ownedElements": [
 								{
 									"_type": "UMLAssociation",
@@ -9082,6 +9084,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -9099,6 +9102,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -9118,7 +9122,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4FbwYP4Vyrk="
 							},
-							"name": "item",
+							"name": "Items",
 							"ownedElements": [
 								{
 									"_type": "UMLGeneralization",
@@ -9355,6 +9359,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -9372,6 +9377,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -9389,6 +9395,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -9406,6 +9413,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -9423,6 +9431,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -9455,7 +9464,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4FbwYP4Vyrk="
 							},
-							"name": "supplier",
+							"name": "Suppliers",
 							"ownedElements": [
 								{
 									"_type": "UMLDependency",
@@ -9526,6 +9535,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -9543,6 +9553,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -9593,6 +9604,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -9755,7 +9767,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4FbwYP4Vyrk="
 							},
-							"name": "tags",
+							"name": "Tags",
 							"visibility": "public",
 							"attributes": [
 								{
@@ -9768,6 +9780,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -9800,7 +9813,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4FbwYP4Vyrk="
 							},
-							"name": "price",
+							"name": "Prices",
 							"ownedElements": [
 								{
 									"_type": "UMLDependency",
@@ -9843,6 +9856,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -9860,6 +9874,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -9877,6 +9892,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -10654,7 +10670,7 @@
 											"containerExtending": false,
 											"left": 420,
 											"top": 216,
-											"width": 93,
+											"width": 90,
 											"height": 25,
 											"autoResize": false,
 											"stereotypeLabel": {
@@ -10939,7 +10955,7 @@
 											"containerExtending": false,
 											"left": 196,
 											"top": 200,
-											"width": 106,
+											"width": 97,
 											"height": 38,
 											"autoResize": false,
 											"stereotypeLabel": {
