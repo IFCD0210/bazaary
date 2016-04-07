@@ -293,7 +293,7 @@ php:
         date.timezone: UTC
     fpm_ini:
         error_log: /var/www/bazaary/log/php.log
-        log_level: warn
+        #log_level: warn
     fpm_pools:
         phpfp_gz2f80s5dzc1:
             ini:
