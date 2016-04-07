@@ -22,7 +22,7 @@ vagrantfile:
                         update_guest_tools: 0
                 machines:
                     vflm_m1b4s3kso32o:
-                        id: machine1
+                        id: daw
                         network:
                             private_network: 192.168.56.60
                             forwarded_port:
@@ -110,9 +110,74 @@ vagrantfile:
 server:
     install: '1'
     packages:
+    # GUI Desktop Tools
+        # ubuntu trusty official packages
+        - lxde # LX Desktop Environment
+        - gdm # Gnome Desktop Environment
+        - alacarte  # menu editor
+        - gdebi     # package installer
+        - libreoffice # office suite
+        - retext    # markdown editor
+
+    # gui browsers
+        - chromium-browser
+        - firefox
+
+    # non-gui browsers and downloaders
+        # ubuntu trusty official packages
+        - curl
+        - wget
         - lynx
-        - gdebi
+
+    # Server Admin Tools
+        # brought by webmin ppa
+        # key added with `wget -O - http://www.webmin.com/jcameron-key.asc | sudo apt-key add -`
+        # @see http://www.unixmen.com/install-webmin-ubuntu-14-04/
+            # "webmin.list" source file placed under /etc/apt/sources.list.d/ folder
+        - webmin
+        # ubuntu trusty official packages
+        - nagios3
+
+
+    # DBMS Admin tools (SGBD Adminstración)
+        # brought by mysql ppa
+        # key added with `sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 5072E1F5`
+        # @see http://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/#repo-qg-apt-repo-manual-setup
+        # @see http://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/#repo-qg-apt-available
+            # "mysql.list" source file placed under /etc/apt/sources.list.d/ folder
+        - mysql-workbench-community
+
+        # ubuntu trusty official packages
+        - pgadmin3 # gui postgres administration tool
+        - wine # windows emulator, necessary to run HeidiSQL
+        - phpmyadmin # web interface mysql adminstration tool
+
+    # DBMS Management tools (less than Admin)
+        # DBeaver downloaded from jkiss.org
+        # installed with `wget -O /tmp/dbeaver.deb http://dbeaver.jkiss.org/files/dbeaver-ce_latest_amd64.deb; sudo dpkg -i /tmp/dbeaver.deb; sudo apt-get install -f`
+        #- dbeaver
+
+    # CASE Tools
+        # brought by bouml ppa
+        # key added with `wget -O - http://www.bouml.fr/bouml_key.asc | sudo apt-key add -`
+        # @see http://www.bouml.fr/download.html
+            # "bouml.list" source file placed under /etc/apt/sources.list.d/ folder
+        - bouml
+        # Old release, available at http://old-releases.ubuntu.com/ubuntu/pool/main/x/xft/libxft-dev_2.1.2-6_amd64.deb
+        # - libxft-dev # used by DBDesigner 4
+
+    # IDEs
+        # brought by sublime ppa
+        # ppa added with `sudo add-apt-repository ppa:webupd8team/sublime-text-3`
+        - sublime-text
+
+        # ubuntu trusty official packages
         - eclipse
+    # CVS
+        # ubuntu trusty official packages
+        - git
+
+    # System binaries and libraries
         - nano
         - git
         - php5-xdebug
@@ -238,7 +303,7 @@ apache:
     vhosts:
         av_09x1fdsk9w1i:
             servername: bazaary.local
-            docroot: /var/www/bazaary
+            docroot: /var/www/bazaary/web
             port: '80'
             setenv:
                 - 'APP_ENV dev'
@@ -254,7 +319,43 @@ apache:
             ssl_cipher: ''
             directories:
                 avd_2sqjwyhb27pa:
-                    path: /var/www/bazaary
+                    path: /var/www/bazaary/web
+                    options:
+                        - Indexes
+                        - FollowSymlinks
+                        - MultiViews
+                    allow_override:
+                        - All
+                    require:
+                        - 'all granted'
+                    custom_fragment: ''
+                    files_match:
+                        avdfm_hvqtytvmfup2:
+                            path: \.php$
+                            sethandler: 'proxy:fcgi://127.0.0.1:9000'
+                            custom_fragment: ''
+                            provider: filesmatch
+                    provider: directory
+
+        bazaary.master:
+            servername: bazaary.master
+            docroot: /var/www/bazaary-master/web
+            port: '80'
+            setenv:
+                - 'APP_ENV dev'
+            setenvif:
+                - 'Authorization "(.*)" HTTP_AUTHORIZATION=$1'
+            custom_fragment: ''
+            ssl: '0'
+            ssl_cert: ''
+            ssl_key: ''
+            ssl_chain: ''
+            ssl_certs_dir: ''
+            ssl_protocol: ''
+            ssl_cipher: ''
+            directories:
+                avd_2sqjwyhb27pa:
+                    path: /var/www/bazaary-master/web
                     options:
                         - Indexes
                         - FollowSymlinks
@@ -274,7 +375,7 @@ apache:
 php:
     install: '1'
     settings:
-        version: '56'
+        version: '55'
     modules:
         php:
             - cli
@@ -294,8 +395,8 @@ php:
         session.save_path: /var/lib/php/session
         date.timezone: UTC
     fpm_ini:
-        error_log: /var/www/bazaary/log/php.log
-        log_level: warn
+        error_log: /var/log/php.log
+        # log_level: debug
     fpm_pools:
         phpfp_gz2f80s5dzc1:
             ini:
@@ -311,10 +412,13 @@ xdebug:
     settings:
         xdebug.default_enable: '1'
         xdebug.remote_autostart: '0'
-        xdebug.remote_connect_back: '1'
+        xdebug.remote_connect_back: '0'
         xdebug.remote_enable: '1'
+        xdebug.remote_host: 127.0.0.1
         xdebug.remote_handler: dbgp
-        xdebug.remote_port: '9000'
+        xdebug.remote_port: 9001
+        xdebug.remote_mode: req
+        xdebug.remote_log: '/var/log/xdebug.log'
 blackfire:
     install: '0'
     settings:
@@ -406,7 +510,7 @@ mysql:
             password: '1234'
     databases:
         mysqlnd_840wt0hy5dq7:
-            name: dbname
+            name: bazaary
             sql: ''
     grants:
         mysqlng_lvymmen0gsx2:

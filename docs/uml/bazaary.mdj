@@ -136,7 +136,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFSrM4A5UacBLk="
 							},
-							"name": "ClassDiagram1",
+							"name": "Conceptual Class Diagram",
 							"visible": true,
 							"defaultDiagram": false,
 							"ownedViews": [
