@@ -4091,11 +4091,10 @@
 							"_parent": {
 								"$ref": "AAAAAAFT0S6ikTBhfd0="
 							},
-							"name": "Name",
+							"name": "name",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
-							"type": "",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -4109,11 +4108,10 @@
 							"_parent": {
 								"$ref": "AAAAAAFT0S6ikTBhfd0="
 							},
-							"name": "ID",
+							"name": "id",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
-							"type": "",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -4127,11 +4125,10 @@
 							"_parent": {
 								"$ref": "AAAAAAFT0S6ikTBhfd0="
 							},
-							"name": "Description",
+							"name": "description",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
-							"type": "",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -4145,11 +4142,10 @@
 							"_parent": {
 								"$ref": "AAAAAAFT0S6ikTBhfd0="
 							},
-							"name": "Disponibility",
+							"name": "disponibility",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
-							"type": "",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -4178,11 +4174,10 @@
 							"_parent": {
 								"$ref": "AAAAAAFT0TShYzDjtm4="
 							},
-							"name": "Name",
+							"name": "name",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
-							"type": "",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -4196,11 +4191,10 @@
 							"_parent": {
 								"$ref": "AAAAAAFT0TShYzDjtm4="
 							},
-							"name": "Items",
+							"name": "items",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
-							"type": "",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -4321,11 +4315,10 @@
 							"_parent": {
 								"$ref": "AAAAAAFT0TTu0zEOuAw="
 							},
-							"name": "ID",
+							"name": "id",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
-							"type": "",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -4354,11 +4347,10 @@
 							"_parent": {
 								"$ref": "AAAAAAFT0TiyPDFxGCw="
 							},
-							"name": "Name",
+							"name": "name",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
-							"type": "",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -4504,11 +4496,10 @@
 							"_parent": {
 								"$ref": "AAAAAAFT0T0O4TIgINE="
 							},
-							"name": "Size",
+							"name": "size",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
-							"type": "",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -4522,11 +4513,10 @@
 							"_parent": {
 								"$ref": "AAAAAAFT0T0O4TIgINE="
 							},
-							"name": "Resolution",
+							"name": "resolution",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
-							"type": "",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -4555,11 +4545,10 @@
 							"_parent": {
 								"$ref": "AAAAAAFT0UK9kDJg9go="
 							},
-							"name": "Name",
+							"name": "name",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
-							"type": "",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -4796,7 +4785,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "+Name",
+													"text": "+name",
 													"horizontalAlignment": 0,
 													"verticalAlignment": 5
 												},
@@ -4824,7 +4813,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "+ID",
+													"text": "+id",
 													"horizontalAlignment": 0,
 													"verticalAlignment": 5
 												},
@@ -4852,7 +4841,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "+Description",
+													"text": "+description",
 													"horizontalAlignment": 0,
 													"verticalAlignment": 5
 												},
@@ -4880,7 +4869,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "+Disponibility",
+													"text": "+disponibility",
 													"horizontalAlignment": 0,
 													"verticalAlignment": 5
 												}
@@ -5194,7 +5183,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "+Name",
+													"text": "+name",
 													"horizontalAlignment": 0,
 													"verticalAlignment": 5
 												},
@@ -5222,7 +5211,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "+Items",
+													"text": "+items",
 													"horizontalAlignment": 0,
 													"verticalAlignment": 5
 												}
@@ -5536,7 +5525,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "+ID",
+													"text": "+id",
 													"horizontalAlignment": 0,
 													"verticalAlignment": 5
 												}
@@ -5850,7 +5839,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "+Name",
+													"text": "+name",
 													"horizontalAlignment": 0,
 													"verticalAlignment": 5
 												}
@@ -6732,7 +6721,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "+Size",
+													"text": "+size",
 													"horizontalAlignment": 0,
 													"verticalAlignment": 5
 												},
@@ -6760,7 +6749,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "+Resolution",
+													"text": "+resolution",
 													"horizontalAlignment": 0,
 													"verticalAlignment": 5
 												}
@@ -7074,7 +7063,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "+Name",
+													"text": "+name",
 													"horizontalAlignment": 0,
 													"verticalAlignment": 5
 												}
