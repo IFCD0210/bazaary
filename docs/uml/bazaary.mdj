@@ -8505,7 +8505,7 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": -24,
+											"left": -32,
 											"top": -48,
 											"width": 10,
 											"height": 10,
@@ -8529,7 +8529,7 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": -24,
+											"left": -32,
 											"top": -48,
 											"width": 10,
 											"height": 10,
@@ -11005,7 +11005,7 @@
 													"containerExtending": false,
 													"left": 0,
 													"top": 0,
-													"width": 117,
+													"width": 134,
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
@@ -12345,6 +12345,53 @@
 									"headQualifiersCompartment": {
 										"$ref": "AAAAAAFT5tulxf7+UG0="
 									}
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAFT8GDV4k6gWZs=",
+									"_parent": {
+										"$ref": "AAAAAAFT5XGWABfme9U="
+									},
+									"visible": true,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 336,
+									"top": 520,
+									"width": 241,
+									"height": 66,
+									"autoResize": false,
+									"text": "Cada venta va asociada a un token.\nCircunstancia que será aprovechada en el diseño del Modelo Físico de Datos",
+									"wordWrap": true
+								},
+								{
+									"_type": "UMLNoteLinkView",
+									"_id": "AAAAAAFT8GHt/E9ubmE=",
+									"_parent": {
+										"$ref": "AAAAAAFT5XGWABfme9U="
+									},
+									"visible": true,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"head": {
+										"$ref": "AAAAAAFT5XGWAxgXb5E="
+									},
+									"tail": {
+										"$ref": "AAAAAAFT8GDV4k6gWZs="
+									},
+									"lineStyle": 1,
+									"points": "401:519;317:469"
 								}
 							]
 						},
@@ -12911,6 +12958,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -12928,6 +12976,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -13534,6 +13583,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
