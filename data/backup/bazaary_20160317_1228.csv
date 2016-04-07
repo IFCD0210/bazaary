@@ -1,0 +1,72 @@
+"Id","Title","Labels","Iteration","Iteration Start","Iteration End","Type","Estimate","Current State","Created at","Accepted at","Deadline","Requested By","Description","URL","Owned By","Comment","Comment","Comment","Comment","Comment","Comment","Comment","Comment","Comment","Comment","Comment","Comment","Comment","Comment","Comment","Comment","Task","Task Status","Task","Task Status","Task","Task Status","Task","Task Status","Task","Task Status","Task","Task Status","Task","Task Status","Task","Task Status","Task","Task Status"
+2392517,"C1 - Hacer componentes que accedan a BBDD (MAPPERS)","c1",,,,"epic",,,"Mar 16, 2016",,,,"Desarrollar componentes que permitan el acceso y la manipulación de las informaciones soportadas en bases de datos y otras estructuras.","https://www.pivotaltracker.com/epic/show/2392517",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+115755427,"A Apuntes profe","apuntes",4,"Mar 14, 2016","Mar 20, 2016","chore",,"unstarted","Mar 16, 2016",,,"Scrum Master",,"https://www.pivotaltracker.com/story/show/115755427",,,,,,,,,,,,,,,,,,"– Concepto de dato. Ciclo de vida de los datos.","not completed","– Tipos de datos.","not completed","– Definición de un modelo conceptual.","not completed","– El modelo relacional.","not completed","– Construcción del modelo lógico de datos.","not completed",,,,,,,,
+115755587,"B Exposición","clase, exposicion, magistral, ponencia",,,,"chore",,"unscheduled","Mar 16, 2016",,,"Scrum Master",,"https://www.pivotaltracker.com/story/show/115755587",,,,,,,,,,,,,,,,,,"Concepto de datos. Ciclo de vida de los datos","not completed","Tipos de datos","not completed","Definición de un modelo conceptual","not completed","El modelo relacional","not completed","Definición de SGBD.","not completed",,,,,,,,
+115755601,"C **Libro** (Aplicaciones Web Ágiles con Symfony)","doctrine, libro, symfony",,,,"chore",,"unscheduled","Mar 16, 2016",,,"Scrum Master",,"https://www.pivotaltracker.com/story/show/115755601",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+115755627,"D **Ejemplos** (Caso _Cupon_)","cupon, github, symfony",,,,"chore",,"unscheduled","Mar 16, 2016",,,"Scrum Master","Aplicación de [prueba Cupon](https://github.com/javiereguiluz/Cupon) para Symfony 2.5.x
+=============================================
+
+**Cupon** es una aplicación de prueba desarrollada para aprender a programar con Symfony 2.5. Se trata de un clon simplificado de Groupon, de ahí el nombre. Esta aplicación es la base del libro **[Desarrollo web ágil con Symfony2](http://www.symfony.es/libro/)** publicado por Javier Eguiluz.
+
+Si descubres algún error, por favor utiliza [la página de issues de Github](https://github.com/javiereguiluz/Cupon/issues) para avisarnos.
+
+Pantallazos (pincha cada imagen para ampliarla)
+-----------------------------------------------
+
+### Frontend
+
+[![Portada](http://javiereguiluz.com/cupon/screenshots/thumb-cupon-frontend-portada.png)](http://javiereguiluz.com/cupon/screenshots/cupon-frontend-portada.png)
+[![Página de detalle de la oferta](http://javiereguiluz.com/cupon/screenshots/thumb-cupon-frontend-oferta.png)](http://javiereguiluz.com/cupon/screenshots/cupon-frontend-oferta.png)
+[![Página de ofertas recientes en una ciudad](http://javiereguiluz.com/cupon/screenshots/thumb-cupon-frontend-recientes.png)](http://javiereguiluz.com/cupon/screenshots/cupon-frontend-recientes.png)
+[![Formulario de login](http://javiereguiluz.com/cupon/screenshots/thumb-cupon-frontend-login.png)](http://javiereguiluz.com/cupon/screenshots/cupon-frontend-login.png)
+
+### Extranet
+
+[![Listado de ofertas](http://javiereguiluz.com/cupon/screenshots/thumb-cupon-extranet-listado.png)](http://javiereguiluz.com/cupon/screenshots/cupon-extranet-listado.png)
+[![Formulario para modificar oferta](http://javiereguiluz.com/cupon/screenshots/thumb-cupon-extranet-modificar-oferta.png)](http://javiereguiluz.com/cupon/screenshots/cupon-extranet-modificar-oferta.png)
+
+### Backend
+
+[![Listing](http://javiereguiluz.com/cupon/screenshots/thumb-cupon-backend-listado.png)](http://javiereguiluz.com/cupon/screenshots/cupon-backend-listado.png)
+[![Página de detalle de la oferta](http://javiereguiluz.com/cupon/screenshots/thumb-cupon-backend-ver-oferta.png)](http://javiereguiluz.com/cupon/screenshots/cupon-backend-ver-oferta.png)","https://www.pivotaltracker.com/story/show/115755627",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+115755673,"E Herramientas **CASE** (BBDD)",,,,,"chore",,"unscheduled","Mar 16, 2016",,,"Scrum Master",,"https://www.pivotaltracker.com/story/show/115755673",,"MySQL Workbench (free): http://www.mysql.com/products/workbench/ (JuanJo G - Mar 16, 2016)","DB Designer (free):  http://fabforce.net/dbdesigner4/ (JuanJo G - Mar 16, 2016)","BOUML http://www.bouml.fr/ (Grisel R - Mar 16, 2016)","ERWIN http://erwin.com/ (Javier Q - Mar 16, 2016)","EasyCASE: http://www.ecured.cu/EasyCASE
+ (JuanJo G - Mar 16, 2016)","Oracle Designer: http://www.oracle.com/technetwork/developer-tools/designer/overview/index-082236.html (JuanJo G - Mar 16, 2016)","Squirrel Clients v.3.7 .. :   http://squirrel-sql.sourceforge.net/   ...  
+Open Source. Alta actualización. Esta herramienta es en realidad un cliente SQL multi-bases-de-datos con capacidades de modelado e ingeniería directa e inversa. (Jaume M. - Mar 16, 2016)","http://www.navicat.com/es
+Tiene licencia no comercial, de lo contrario mas de 600$ (Genís J - Mar 16, 2016)","DB-MAIN
+http://www.db-main.com/ (Xavi C. - Mar 16, 2016)","TOAD http://www.toadworld.com/m/freeware (Jony T. - Mar 16, 2016)","Druid III  ..  http://druid.sourceforge.net/ (Jaume M. - Mar 16, 2016)","ARGOUML
+http://argouml.tigris.org/ (Imma - Mar 16, 2016)","SQuirreL
+http://www.squirrelsql.org/ (Xavi C. - Mar 16, 2016)","UMBRELLO
+https://umbrello.kde.org/ (Jaume M. - Mar 16, 2016)","SQL Power Architect
+http://www.sqlpower.ca/page/architect (Xavi C. - Mar 16, 2016)","DbSchema
+can be evaluated 15 days for free
+http://www.dbschema.com/ (J. Carlos R - Mar 16, 2016)","Buscar Herramientas CASE para Windows y Ubuntu","not completed","Publicar en activity","not completed",,,,,,,,,,,,,,
+115757185,"F Herramientas **UML**","argouml, eclipseuml, staruml, uml",,,,"chore",,"unscheduled","Mar 16, 2016",,,"Scrum Master",,"https://www.pivotaltracker.com/story/show/115757185",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+115757903,"G Entorno virtualizado dónde tener un **SGBD**","box, vagrant, virtualbox, vmware",,,,"chore",,"unscheduled","Mar 16, 2016",,,"Scrum Master",,"https://www.pivotaltracker.com/story/show/115757903",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+115753111,"1. - Modelos de datos",,,,,"feature",,"unscheduled","Mar 16, 2016",,,"Scrum Master",,"https://www.pivotaltracker.com/story/show/115753111",,,,,,,,,,,,,,,,,,"– Concepto de dato. Ciclo de vida de los datos.","not completed","– Tipos de datos.","not completed","– Definición de un modelo conceptual.","not completed","– El modelo relacional.","not completed","– Construcción del modelo lógico de datos.","not completed","– El modelo físico de datos. Ficheros de datos.","not completed","– El modelo físico de datos. Ficheros de datos.","not completed","– Transformación de un modelo lógico en un modelo físico de datos.","not completed","– Herramientas para la realización de modelos de datos.","not completed"
+115753505,"2 - Sistemas de gestión de bases de datos (SGBD)",,,,,"feature",,"unscheduled","Mar 16, 2016",,,"Jaume M.",,"https://www.pivotaltracker.com/story/show/115753505",,"Criterios para selección de SGBD comerciales:
+- El que nos venga marcado, o aquél para el que hayamos invertido tiempo y dinero.
+
+Criterios para selección de SGBD no comerciales:
+- El que podamos probar en entornos privados
+- El que pertenezca al abanico de los que nos ofrezca nuestro/s ""hostings de confianza"" (Scrum Master - Mar 16, 2016)","Definición de SGBD:
+ - Es un servicio
+   - Se puede controlar (arrancar, parar, reconfigurar, reiniciar)
+      - En un entorno Debian mediante scripts de inicio (`/etc/init.d`) con : `sudo /etc/init.d/NOMBRE_SCRIPT_DEL_SERVICIO <start|stop|restart|reload|status>`
+      - En un entorno Ubuntu mediante una instrucción llamada `service`:
+         `sudo service NOMBRE_SCRIPT_DEL_SERVICIO <start|stop|restart|reload|status>`
+   - Se puede configurar (el puerto al que el servicio atiende, los clientes a los que atendrá)
+     -  
+ - Atiende peticiones en SQL
+ (Scrum Master - Mar 16, 2016)","Componentes de un SGDB. Estructura. (Scrum Master - Mar 16, 2016)",,,,,,,,,,,,,,"Definición de SGBD.","not completed","Componentes de un SGDB. Estructura.","not completed","Terminología de SGDB.","not completed","Administración de un SGDB.","not completed","Gestión de transacciones en un SGBD","not completed","Soluciones de SGBD.","not completed","Criterios para la selección de SGBD comerciales","completed",,,,
+115753449,"3.  Lenguajes de gestión de bases de datos. El estándar SQL",,,,,"feature",1,"unscheduled","Mar 16, 2016",,,"Grisel R",,"https://www.pivotaltracker.com/story/show/115753449",,,,,,,,,,,,,,,,,,"- Descripción del estándar SQL","not completed","- Creación de bases de datos","not completed","- Gestión de registros en tablas","not completed","– Consultas","not completed","– Conversión, generación y manipulación de datos","not completed","Agrupaciones","not completed","Consultas múltiples. Uniones (joins)","not completed","- Vistas","not completed","- Funciones avanzadas","not completed"
+115753527,"4 Lenguajes de marcas de uso común en el lado servidor",,,,,"feature",,"unscheduled","Mar 16, 2016",,,"Javier Q",,"https://www.pivotaltracker.com/story/show/115753527",,,,,,,,,,,,,,,,,,"Origen e historia de los lenguajes de marcas. El estándar XML.","not completed","Características de XML.","not completed","Estructura de XML.","not completed","Estándares basados en XML.","not completed","Análisis XML.","not completed","Uso de XML en el intercambio de información.","not completed",,,,,,
+115752949,"**CE1.1** - Crear clases acceso a datos","c1",,,,"release",,"unscheduled","Mar 16, 2016",,,"Scrum Master","Crear componentes software utilizando objetos o componentes de conectividad específicos para acceder a informaciones almacenadas en bases de datos y otras estructuras.","https://www.pivotaltracker.com/story/show/115752949",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+115753437,"**CE1.2 ** - Hacer DML","c1",,,,"release",,"unscheduled","Mar 16, 2016",,,"Scrum Master","CE1.2 Integrar sentencias SQL en los componentes software para acceder y manipular la información ubicada en bases de datos.","https://www.pivotaltracker.com/story/show/115753437",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+115753493,"**CE1.3** - Doctrine","c1",,,,"release",,"unscheduled","Mar 16, 2016",,,"Scrum Master","En un supuesto práctico en el que se pide construir componentes de software que accedan a datos soportados en bases de datos u otras estructuras de almacenamiento, se pide:
+– Identificar los elementos y estructuras contenidas en una base de datos.
+– Utilizar los objetos, conectores y middleware necesarios en la construcción del componente para realizar los accesos a los datos soportados en la base de datos u otras estructuras según especificaciones dadas.
+– Realizar operaciones de definición y manipulación de informaciones soportadas en bases de datos mediante el lenguaje SQL.","https://www.pivotaltracker.com/story/show/115753493",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+115753669,"CE1.4  - XML-Data","c1",,,,"release",,"unscheduled","Mar 16, 2016",,,"Scrum Master","CE1.4 Determinar las características principales de un lenguaje estándar de marcas extendido para compartir información entre componentes software y bases de datos u otras estructuras.","https://www.pivotaltracker.com/story/show/115753669",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+114558005,"nueva tarea en average",,,,,"feature",,"unscheduled","Feb 26, 2016",,,"Scrum Master",,"https://www.pivotaltracker.com/story/show/114558005",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+114557681,"tareaa prueba zapier",,,,,"feature",,"unscheduled","Feb 26, 2016",,,"Scrum Master",,"https://www.pivotaltracker.com/story/show/114557681",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+114558007,"prueba arrastre",,,,,"feature",,"unscheduled","Feb 26, 2016",,,"Scrum Master",,"https://www.pivotaltracker.com/story/show/114558007",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
