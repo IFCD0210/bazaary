@@ -4,8 +4,8 @@ vagrantfile:
         provider:
             local:
                 box: scrummaster/daw
-                box_url: file:///C:/Vagrant/scrummaster_daw.box
-                box_version: '1.0.0.0'
+                box_url: file:///C:/Vagrant/boxes/scrummaster_daw.box
+                box_version: '0'
                 chosen_virtualizer: virtualbox
                 virtualizers:
                     virtualbox:
@@ -27,7 +27,7 @@ vagrantfile:
                                 vflmnfp_blkhtta9q760:
                                     host: '5794'
                                     guest: '22'
-                        hostname: vagrant
+                        hostname: daw1.1.0
                         memory: '4096'
                         cpus: '2'
         provision:
