@@ -112,8 +112,6 @@ server:
     packages:
         - lynx
         - nano
-        - eclipse
-        - gdebi
         - git
         - php5-xdebug
         - ssh
