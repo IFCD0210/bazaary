@@ -10,3 +10,10 @@
 /vendor/
 /bin/
 /composer.phar
+*.sublime-project
+*.sublime-workspace
+nbproject/
+.phpintel/
+.buildpath
+.project
+.settings/
