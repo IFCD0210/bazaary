@@ -9572,7 +9572,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "Categorized items",
+													"text": "CategorizedItems",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -9856,7 +9856,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "brochure",
+													"text": "Brochures",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -10140,7 +10140,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "Registros de ventas",
+													"text": "RegistrosDeVentas",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -10424,7 +10424,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "Catalogue",
+													"text": "Catalogues",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -10992,7 +10992,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "Overlay frames",
+													"text": "OverlayFrames",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -11276,7 +11276,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "full features",
+													"text": "FullFeatures",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -11590,7 +11590,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "HR Carousel",
+													"text": "HRCarousels",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -13169,7 +13169,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "Proveïdor",
+													"text": "Proveïdors",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -13952,7 +13952,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "page 404",
+													"text": "Pages404",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -18342,7 +18342,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "Galeria",
+													"text": "Galerias",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -19123,7 +19123,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4GEpYey3Wfg="
 							},
-							"name": "Categorized items",
+							"name": "CategorizedItems",
 							"ownedElements": [
 								{
 									"_type": "UMLAssociation",
@@ -19319,7 +19319,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4GEpYey3Wfg="
 							},
-							"name": "brochure",
+							"name": "Brochures",
 							"ownedElements": [
 								{
 									"_type": "UMLAssociation",
@@ -19646,7 +19646,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4GEpYey3Wfg="
 							},
-							"name": "Registros de ventas",
+							"name": "RegistrosDeVentas",
 							"visibility": "public",
 							"isAbstract": false,
 							"isFinalSpecialization": false,
@@ -19719,7 +19719,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4GEpYey3Wfg="
 							},
-							"name": "Catalogue",
+							"name": "Catalogues",
 							"ownedElements": [
 								{
 									"_type": "UMLAssociation",
@@ -20175,7 +20175,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4GEpYey3Wfg="
 							},
-							"name": "Overlay frames",
+							"name": "OverlayFrames",
 							"ownedElements": [
 								{
 									"_type": "UMLAssociation",
@@ -20280,7 +20280,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4GEpYey3Wfg="
 							},
-							"name": "full features",
+							"name": "FullFeatures",
 							"visibility": "public",
 							"attributes": [
 								{
@@ -20293,6 +20293,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -20312,7 +20313,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4GEpYey3Wfg="
 							},
-							"name": "HR Carousel",
+							"name": "HRCarousels",
 							"ownedElements": [
 								{
 									"_type": "UMLAssociation",
@@ -20372,6 +20373,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -20389,6 +20391,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -20408,7 +20411,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4GEpYey3Wfg="
 							},
-							"name": "Proveïdor",
+							"name": "Proveïdors",
 							"ownedElements": [
 								{
 									"_type": "UMLAssociation",
@@ -20468,6 +20471,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -20485,6 +20489,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -20502,6 +20507,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -20521,7 +20527,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4GEpYey3Wfg="
 							},
-							"name": "page 404",
+							"name": "Pages404",
 							"ownedElements": [
 								{
 									"_type": "UMLAssociation",
@@ -20626,6 +20632,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -20643,6 +20650,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -20660,6 +20668,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -20677,6 +20686,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -20861,6 +20871,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -20878,6 +20889,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -20975,7 +20987,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFT4GEpYey3Wfg="
 							},
-							"name": "Galeria",
+							"name": "Galerias",
 							"visibility": "public",
 							"attributes": [
 								{
@@ -20988,6 +21000,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -21005,6 +21018,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -21022,6 +21036,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -21039,6 +21054,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -21056,6 +21072,7 @@
 									"visibility": "public",
 									"isStatic": false,
 									"isLeaf": false,
+									"type": "",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
