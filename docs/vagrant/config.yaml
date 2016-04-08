@@ -4,7 +4,10 @@ vagrantfile:
         provider:
             local:
                 box: scrummaster/daw
+				##Nom de la maquina per defecte que no ens serveix: puphpet/ubuntu1404-x64
+               
                 box_url: file:///C:/Vagrant/scrummaster_daw.box
+                ##Ubicacio de la box per defecte: puphpet/ubuntu1404-x64
                 box_version: '1.0.0.0'
                 chosen_virtualizer: virtualbox
                 virtualizers:
@@ -38,6 +41,28 @@ vagrantfile:
                     - '--verbose'
                     - '--hiera_config /vagrant/puphpet/puppet/hiera.yaml'
         synced_folder:
+            vflsf_9f3pm5dtamaw:
+                source: c:/xampp5_6/htdocs
+                target: /var/www
+                sync_type: default
+                smb:
+                    smb_host: ''
+                    smb_username: ''
+                    smb_password: ''
+                    mount_options:
+                        dir_mode: '0775'
+                        file_mode: '0664'
+                rsync:
+                    args:
+                        - '--verbose'
+                        - '--archive'
+                        - '-z'
+                    exclude:
+                        - .vagrant/
+                        - .git/
+                    auto: 'true'
+                owner: www-data
+                group: www-data
             vflsf_45i04dzgrc08:
                 source: ''
                 target: ''
