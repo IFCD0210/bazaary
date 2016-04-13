@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /app/config/parameters.yml
 /build/
 /phpunit.xml
@@ -14,3 +15,24 @@
 !var/SymfonyRequirements.php
 /vendor/
 /web/bundles/
+=======
+/web/bundles/
+/app/bootstrap.php.cache
+/app/cache/*
+/app/config/parameters.yml
+/app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+/app/phpunit.xml
+/build/
+/vendor/
+/bin/
+/composer.phar
+*.sublime-project
+*.sublime-workspace
+nbproject/
+.phpintel/
+.buildpath
+.project
+.settings/
+>>>>>>> b9bbfdf82a2c7187017fd3254441f1b62a7ce752
