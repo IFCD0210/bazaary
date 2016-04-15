@@ -17,3 +17,9 @@ nbproject/
 .buildpath
 .project
 .settings/
+
+# Ficheros descargados al ejecutar
+# composer create-project symfony/framework-standard-edition
+
+## Ficheros markdown que no me interesan para nada
+UPGRADE*.md
