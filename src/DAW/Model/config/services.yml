@@ -1,0 +1,7 @@
+services:
+
+    # BAZAARY
+    ## Servicio del Modelo de Bazaary
+    bazaary.model:
+        class:  DAW\Model\BazaaryModel
+    

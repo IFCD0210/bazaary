@@ -1,0 +1,14 @@
+# Learn more about services, parameters and containers at
+# http://symfony.com/doc/current/book/service_container.html
+parameters:
+#    parameter_name: value
+
+services:
+#    service_name:
+#        class: AppBundle\Directory\ClassName
+#        arguments: ["@another_service_name", "plain_value", "%parameter_name%"]
+
+# Para separar los servicios propios del Modelo de datos
+# hemos creado un fichero a parte, y usamos la ruta relativa para importarlo
+imports:
+    - { resource: ../../src/DAW/Model/config/services.yml }
