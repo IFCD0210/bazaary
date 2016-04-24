@@ -4,4 +4,13 @@ services:
     ## Servicio del Modelo de Bazaary
     bazaary.model:
         class:  DAW\Model\BazaaryModel
-    
+        arguments: ['@service_container']
+
+    ## Repository, Factory y Gateway para Items
+    bazaary.model.items.repository:
+        class:  DAW\Model\Repositories\ItemsRepository
+        arguments: ['@bazaary.model.items.factory']
+
+    bazaary.model.items.factory:
+        class:  DAW\Model\Factories\ItemsFactory
+        #arguments: []
