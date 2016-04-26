@@ -9,8 +9,10 @@ services:
     ## Repository, Factory y Gateway para Items
     bazaary.model.items.repository:
         class:  DAW\Model\Repositories\ItemsRepository
-        arguments: ['@bazaary.model.items.factory']
+        arguments: ['@bazaary.model.items.factory', '@bazaary.model.items.gateway']
 
     bazaary.model.items.factory:
         class:  DAW\Model\Factories\ItemsFactory
-        #arguments: []
+
+    bazaary.model.items.gateway:
+        class:  DAW\Model\Gateways\ItemsGateway
